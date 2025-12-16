@@ -15,5 +15,8 @@ class Program
         {
             Console.WriteLine(ex.Message);
         }
+
+        ConnectDatabaseCreateTable.ConnectDb();
+        InsertDataInTable.InsertData();
     }
 }

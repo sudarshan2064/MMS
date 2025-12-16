@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "BouncyCastle.Cryptography/2.6.2": {
         "type": "package",
         "compile": {
@@ -83,12 +83,12 @@
           "ZstdSharp.Port": "0.8.6"
         },
         "compile": {
-          "lib/netstandard2.1/MySql.Data.dll": {
+          "lib/net8.0/MySql.Data.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MySql.Data.dll": {
+          "lib/net8.0/MySql.Data.dll": {
             "related": ".xml"
           }
         },
@@ -122,12 +122,12 @@
           "System.Security.Cryptography.ProtectedData": "8.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -138,12 +138,12 @@
       "System.Diagnostics.EventLog/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
@@ -151,11 +151,11 @@
           "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
             "assetType": "runtime",
             "rid": "win"
           },
-          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -180,12 +180,12 @@
       "System.Security.Cryptography.ProtectedData/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net8.0/System.Security.Cryptography.ProtectedData.dll": {
             "related": ".xml"
           }
         },
@@ -199,12 +199,12 @@
           "System.Windows.Extensions": "8.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Security.Permissions.dll": {
+          "lib/net8.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Security.Permissions.dll": {
+          "lib/net8.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -215,17 +215,17 @@
       "System.Windows.Extensions/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Windows.Extensions.dll": {
+          "lib/net8.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/System.Windows.Extensions.dll": {
+          "lib/net8.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net7.0/System.Windows.Extensions.dll": {
+          "runtimes/win/lib/net8.0/System.Windows.Extensions.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -234,10 +234,10 @@
       "ZstdSharp.Port/0.8.6": {
         "type": "package",
         "compile": {
-          "lib/net7.0/ZstdSharp.dll": {}
+          "lib/net8.0/ZstdSharp.dll": {}
         },
         "runtime": {
-          "lib/net7.0/ZstdSharp.dll": {}
+          "lib/net8.0/ZstdSharp.dll": {}
         }
       }
     }
@@ -589,34 +589,42 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "MySql.Data >= 9.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/aparbhandari/.nuget/packages/": {}
+    "C:\\Users\\class12\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082/DatabaseConnectionRefactored/DatabaseConnection/DatabaseConnection.csproj",
+      "projectUniqueName": "C:\\Users\\class12\\Desktop\\Sudarshan\\C#_Project\\MMS\\RefactoredDatabaseConnectionCSharp\\DatabaseConnection.csproj",
       "projectName": "DatabaseConnection",
-      "projectPath": "/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082/DatabaseConnectionRefactored/DatabaseConnection/DatabaseConnection.csproj",
-      "packagesPath": "/Users/aparbhandari/.nuget/packages/",
-      "outputPath": "/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082/DatabaseConnectionRefactored/DatabaseConnection/obj/",
+      "projectPath": "C:\\Users\\class12\\Desktop\\Sudarshan\\C#_Project\\MMS\\RefactoredDatabaseConnectionCSharp\\DatabaseConnection.csproj",
+      "packagesPath": "C:\\Users\\class12\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\class12\\Desktop\\Sudarshan\\C#_Project\\MMS\\RefactoredDatabaseConnectionCSharp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/aparbhandari/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\class12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -624,11 +632,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "MySql.Data": {
             "target": "Package",
@@ -651,7 +664,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
